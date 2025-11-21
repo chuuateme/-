@@ -1,0 +1,61 @@
+/* textarea {
+  resize: horizontal;
+} */
+  /* label {
+    display: block;
+  } */
+  body {
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+fieldset {
+  display: block;
+  padding: 15px;
+  max-width: 300px;
+  width: 100%;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+h2 {
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+input, textarea {
+  width: 200px; 
+}
+.input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  min-height: 20px;
+}
+textarea {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  resize: vertical;
+  min-height: 30px;
+  max-height: 200px;
+}
+.checkbox {
+  margin-top: 10px;
+  display: flex;
+}
+.chb {
+  cursor: pointer;
+  width: auto;
+}
+.span {
+  font-size: 16px;
+}
+button {
+  display: block;
+  padding: 2px 5px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
